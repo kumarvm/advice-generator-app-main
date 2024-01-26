@@ -13,7 +13,7 @@ body {
     background-color: hsl(217, 19%, 24%);
     width: clamp(120px, 95%, 32rem);
     position: fixed;
-    bottom: 50%;
+    top: 30%;
     text-align: center;
     border-radius: 12px;
     font-family: 'Manrope', serif;
@@ -43,6 +43,9 @@ body {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+.attribution a:hover {
+    color: hsl(220, 18%, 97%); 
 }
 .button {
     background-color: hsl(150, 100%, 66%);
