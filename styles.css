@@ -1,34 +1,45 @@
+@import url('https://fonts.google.com/specimen/Manrope');
 body {
     background-color: hsl(218, 23%, 16%);
     color: white;
-    font-size: 28px;
-    font-family: "https://fonts.google.com/specimen/Manrope";
-    align-content: center;
-    margin: auto;
+    font-size: 160%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100vw;
   }
 #box {
     background-color: hsl(217, 19%, 24%);
-    margin-top: 25%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 25%;
+    width: clamp(120px, 95%, 32rem);
+    position: fixed;
+    bottom: 50%;
     text-align: center;
     border-radius: 12px;
+    font-family: 'Manrope', serif;
 }
 #text_id {
     color: hsl(150, 100%, 66%);
-    font-size: 15px;
-    padding-top: 2%;
+    font-size: 50%;
+    padding-top: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-weight: 400;
+    letter-spacing: 4px;
 }
 #text_advice {
-    color: white;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    color: hsl(0, 2%, 89%);
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    font-weight: bolder;
 }
 .attribution { 
-    font-size: 11px; 
+    font-size: 32%; 
     text-align: center; 
-    align-content: baseline;
+    position: fixed;
+    bottom: 0;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
@@ -39,8 +50,10 @@ body {
     width: 60px;
     height: 60px;
     border-color: hsl(150, 100%, 66%);
+    position: relative;
+    bottom: -30px;
 }
-#divider {
-    padding-top: 2%; 
-    padding-bottom: 2%;
+.button:hover {
+    box-shadow: 0px 0px 10px hsl(150, 100%, 66%);
 }
+
