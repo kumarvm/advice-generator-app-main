@@ -12,12 +12,12 @@ Users should be able to:
 
 ### Screenshot
 
-(insert screenshot)
+![Alt text](image.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution Site](https://www.frontendmentor.io/solutions/advice-generator-app-XMK8RPsaed)
+- Live Site URL: [Live Site](https://advice-generator-app-main-pi-eight.vercel.app/)
 
 ### Built with
 
