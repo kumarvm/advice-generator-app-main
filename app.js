@@ -21,7 +21,7 @@ function getResponse() {
   }
 
   function detectMob() {
-    return ( ( window.innerWidth <= 1000 ) && ( window.innerHeight <= 800 ) );
+    return ( ( window.innerWidth <= 600 ) && ( window.innerHeight <= 400 ) );
   }
 
   function divider() {
